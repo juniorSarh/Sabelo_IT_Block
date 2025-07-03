@@ -1,25 +1,16 @@
-//JavaScript for button request 
 
+const button = document.getElementById('showMoreBtn');
+const extraContent = document.getElementById('extraContent');
 
-function RequestBtn() 
-{
-      alert('Your request has been submited successfully!!');
-      
-       const person = {
-  firstName: "John",
-  lastName: "Doe",
-  id: 5566,
-  fullName: function() {
-    return this.firstName + " " + this.lastName;
+button.addEventListener('click', () => {
+  if (extraContent.style.display === 'none') {
+    extraContent.style.display = 'block';
+    button.textContent = 'Show Less'; // Optional: change button text
+  } else {
+    extraContent.style.display = 'none';
+    button.textContent = 'Show More'; // Optional: revert button text
   }
-};
-
-document.getElementById("myForm").innerHTML = person.fullName();
-
-      
-    }
-    console.log("testing 11");
-
+});
 
 
     
