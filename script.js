@@ -5,10 +5,10 @@ const extraContent = document.getElementById('extraContent');
 button.addEventListener('click', () => {
   if (extraContent.style.display === 'none') {
     extraContent.style.display = 'block';
-    button.textContent = 'Show Less'; // Optional: change button text
+    button.textContent = 'Show Less'; 
   } else {
     extraContent.style.display = 'none';
-    button.textContent = 'Show More'; // Optional: revert button text
+    button.textContent = 'Show More';
   }
 });
 

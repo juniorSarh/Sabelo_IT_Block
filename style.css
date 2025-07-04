@@ -47,23 +47,12 @@ p
   }
 
   img {
-    max-width: 100%; 
+    max-width: 60%; 
     height: auto;
     border: 2px solid #ccc;
     border-radius: 8px;
   }
 
-  
-  .video-container {
-    margin-bottom: 20px;
-  }
-
-  video {
-    max-width: 100%; 
-    height: auto;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-  }
 
 button {
   background-color: #2980c2;
