@@ -25,6 +25,9 @@ nav {
     background-color: #ddd;
     color: black;
   }
+  nav p {
+    padding-left: 180px;
+  }
 
  
 
